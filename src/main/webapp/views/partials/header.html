@@ -9,9 +9,8 @@
                 <li class="topbar-devider"></li>
                 <li>
                     <i class="fa fa-users"></i>
-                    <a ng-repeat="authContainer in user.authorities">{{authContainer.authority}}
-                        <span ng-if="!$last">, </span>
-                    </a>
+                    <a ng-if="user.admin">Administrateur</a>
+                    <a ng-if="!user.admin">Utilisateur</a>
                 </li>
                 <li class="topbar-devider"></li>
                 <li>
@@ -40,7 +39,7 @@
                         <a href="#/home"><i class="fa fa-home"></i> Portail</a>
                     </li>
                     <li>
-                        <a href="#/project"><i class="fa"></i> Projets</a>
+                        <a href="#/tasks"><i class="fa"></i> Projets</a>
                     </li>
                     <li>
                         <a href="#/employee"><i class="fa"></i> Collaborateurs</a>

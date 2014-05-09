@@ -1,0 +1,3 @@
+INSERT INTO public.employee (id, version, email, name, phone) VALUES (1, 0, 'jocelyn.ntakpe@sopra.com', 'Jocelyn N''TAKPE', '51394');
+INSERT INTO public.employee (id, version, email, name, phone) VALUES (2, 0, 'julien.guerrin@sopra.com', 'Julien GUERRIN', '54156');
+INSERT INTO public.employee (id, version, email, name, phone) VALUES (3, 0, 'charles-eric.giraud@sopra.com', 'Charles-Eric GIRAUD', '13210');

@@ -63,8 +63,5 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .antMatchers("/admin/**").hasAuthority(Authorities.ROLE_ADMIN.name());
     }
 
-    private static enum Authorities {
-        ROLE_ADMIN,
-        ROLE_USER
-    }
+
 }

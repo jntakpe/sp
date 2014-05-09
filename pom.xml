@@ -61,6 +61,12 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- JEE -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+        </dependency>
+
         <!-- 3rd party -->
         <dependency>
             <groupId>org.apache.commons</groupId>
