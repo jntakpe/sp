@@ -1,0 +1,13 @@
+{
+    "name" : "Suivi de production",
+    "version" : "1.0.0-SNAPSHOT",
+    "dependencies" : {
+        "jquery" : "latest",
+        "bootstrap" : "latest",
+        "angular" : "latest",
+        "angular-route" : "latest",
+        "angular-resource" : "latest",
+        "angular-http-auth" : "latest",
+        "font-awesome": "latest"
+    }
+}

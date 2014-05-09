@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: sp
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sp
+    username: postgres
+    password: sopra*
+    driverClassName: org.postgresql.Driver
+server:
+  contextPath: /sp
+management:
+  contextPath: /admin
+debug: false
