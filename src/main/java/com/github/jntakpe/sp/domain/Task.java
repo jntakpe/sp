@@ -54,9 +54,7 @@ public class Task extends GenericDomain {
 
         Task task = (Task) o;
 
-        if (name != null ? !name.equals(task.name) : task.name != null) return false;
-
-        return true;
+        return !(name != null ? !name.equals(task.name) : task.name != null);
     }
 
     @Override

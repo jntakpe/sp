@@ -16,7 +16,7 @@ public abstract class GenericDomain implements Serializable {
     private Integer id;
 
     @Version
-    private Short version;
+    private Integer version;
 
     public Integer getId() {
         return id;
@@ -26,11 +26,11 @@ public abstract class GenericDomain implements Serializable {
         this.id = id;
     }
 
-    public Short getVersion() {
+    public Integer getVersion() {
         return version;
     }
 
-    public void setVersion(Short version) {
+    public void setVersion(Integer version) {
         this.version = version;
     }
 }

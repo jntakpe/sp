@@ -51,10 +51,9 @@ public class DailyConsuption extends GenericDomain {
 
         DailyConsuption that = (DailyConsuption) o;
 
-        if (employee != null ? !employee.equals(that.employee) : that.employee != null) return false;
-        if (task != null ? !task.equals(that.task) : that.task != null) return false;
+        return !(employee != null ? !employee.equals(that.employee) : that.employee != null) && !(task != null ? !task.equals(that.task)
+                : that.task != null);
 
-        return true;
     }
 
     @Override
